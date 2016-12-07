@@ -1,3 +1,5 @@
+nginx:
+  scale: 1
 .catalog:
   name: "nginx"
   version: "v1.0"
@@ -9,5 +11,3 @@
       default: 80
       required: true
       type: "int"
-nginx:
-  scale: 1
