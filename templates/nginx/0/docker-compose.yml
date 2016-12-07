@@ -1,7 +1,6 @@
 Nginx:
   image: nginx
   environment:
-   - NGINX_HOST=${NGINX_HOST}
    - NGINX_PORT=${NGINX_PORT}
   ports:
    - "${PROXY_PORT}:80"
