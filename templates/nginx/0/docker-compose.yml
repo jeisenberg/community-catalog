@@ -1,4 +1,4 @@
-Nginx:
+nginx:
   image: nginx
   environment:
    - NGINX_PORT=${NGINX_PORT}

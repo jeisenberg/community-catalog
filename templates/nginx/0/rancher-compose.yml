@@ -17,5 +17,5 @@
       default: 8080
       required: false
       type: "int"
-Nginx:
+nginx:
   scale: ${SCALE}
