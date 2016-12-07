@@ -1,0 +1,24 @@
+.catalog:
+  name: "Nginx"
+  version: "v1.0"
+  description: "Nginx"
+  questions:
+    - variable: "NGINX_HOST"
+      label: "nginx host"
+      description: "i.e. foobar.com"
+      required: true
+      type: "string"
+    - variable: "NGINX_PORT"
+      label: "nginx port"
+      description: "i.e. 80"
+      default: 80
+      required: true
+      type: "int"
+    - variable: "PROXY_PORT"
+      label: "nginx port"
+      description: "i.e. 8080"
+      default: "8080"
+      required: true
+      type: "string"
+Nginx:
+  scale: ${SCALE}
