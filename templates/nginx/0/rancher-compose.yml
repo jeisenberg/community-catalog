@@ -2,6 +2,8 @@
   name: "Nginx"
   version: "v1.0"
   description: "Nginx"
+  uuid: nginx-0
+  minimum_rancher_version: v1.12.0
   questions:
     - variable: "NGINX_HOST"
       label: "nginx host"
