@@ -5,11 +5,6 @@
   uuid: nginx-0
   minimum_rancher_version: v1.12.0
   questions:
-    - variable: "NGINX_HOST"
-      label: "nginx host"
-      description: "i.e. foobar.com"
-      required: true
-      type: "string"
     - variable: "NGINX_PORT"
       label: "nginx port"
       description: "i.e. 80"
@@ -19,8 +14,8 @@
     - variable: "PROXY_PORT"
       label: "nginx port"
       description: "i.e. 8080"
-      default: "8080"
-      required: true
+      default: 8080
+      required: false
       type: "string"
 Nginx:
   scale: ${SCALE}
