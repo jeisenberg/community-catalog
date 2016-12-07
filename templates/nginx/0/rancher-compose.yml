@@ -16,6 +16,6 @@
       description: "i.e. 8080"
       default: 8080
       required: false
-      type: "string"
+      type: "int"
 Nginx:
   scale: ${SCALE}
